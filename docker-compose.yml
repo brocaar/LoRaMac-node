@@ -1,0 +1,7 @@
+services:
+  loramac-node:
+    build:
+      context: .
+      dockerfile: Dockerfile-devel
+    volumes:
+      - ./:/loramac-node
